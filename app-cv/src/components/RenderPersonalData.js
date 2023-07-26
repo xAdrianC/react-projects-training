@@ -20,8 +20,8 @@ const RenderPersonalData = ({ data, toggleFormEditing, editFlag }) => {
       </div>
       {editFlag ? 
         <div className="card-footer text-muted">
-          <a href="/#" className="btn btn-primary" onClick={toggleFormEditing}
-          >Editar</a>
+          <button href="#" className="btn btn-primary" onClick={toggleFormEditing}
+          >Editar</button>
         </div>
         : null
       }
